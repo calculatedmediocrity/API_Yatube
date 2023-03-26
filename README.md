@@ -5,8 +5,6 @@
 
 ```
 git clone https://github.com/vzbdr/api_final_yatube.git
-
-```
 cd yatube_api
 ```
 
@@ -14,9 +12,6 @@ Cоздать и активировать виртуальное окружен�
 
 ```
 python3 -m venv env
-```
-
-```
 source env/bin/activate
 ```
 
@@ -24,9 +19,6 @@ source env/bin/activate
 
 ```
 python3 -m pip install --upgrade pip
-```
-
-```
 pip install -r requirements.txt
 ```
 
