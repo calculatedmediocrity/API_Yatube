@@ -2,6 +2,8 @@ from rest_framework import permissions
 
 
 class AuthorAccessPermission(permissions.BasePermission):
+    message = 'Доступно только чтение.'
+
     def has_permission(self, request, view):
         return (
             request.method in permissions.SAFE_METHODS
